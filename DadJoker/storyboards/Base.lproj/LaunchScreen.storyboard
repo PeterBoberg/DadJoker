@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IndieFlower.ttf">
+            <string>IndieFlower</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashlogo" translatesAutoresizingMaskIntoConstraints="NO" id="kBu-fB-Azz">
+                                <rect key="frame" x="100" y="71" width="214" height="408"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmU-dW-MuX" userLabel="See Through View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.72689896545583754" green="0.72210429833241496" blue="0.40200463275845039" alpha="0.39495933219178081" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAD JOKE LOTTERY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-fz-2zZ">
+                                <rect key="frame" x="10" y="558" width="355" height="48"/>
+                                <fontDescription key="fontDescription" name="IndieFlower" family="Indie Flower" pointSize="41"/>
+                                <color key="textColor" red="1" green="0.48551833248403642" blue="0.56871101831371529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE &quot;REALLY BAD&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="8tk-Vd-Pd0">
+                                <rect key="frame" x="72" y="537.5" width="233" height="30.5"/>
+                                <fontDescription key="fontDescription" name="IndieFlower" family="Indie Flower" pointSize="26"/>
+                                <color key="textColor" red="1" green="0.48551833248403642" blue="0.56871101831371529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dmU-dW-MuX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9UW-oG-0Ud"/>
+                            <constraint firstItem="dmU-dW-MuX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AYv-Vc-hrN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Tv-fz-2zZ" secondAttribute="trailing" constant="10" id="BOl-JW-Emo"/>
+                            <constraint firstItem="kBu-fB-Azz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-188" id="Cra-YR-LvX"/>
+                            <constraint firstItem="dmU-dW-MuX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IrN-5h-OEt"/>
+                            <constraint firstItem="7Tv-fz-2zZ" firstAttribute="top" secondItem="8tk-Vd-Pd0" secondAttribute="bottom" constant="-10" id="LAW-gT-vUs"/>
+                            <constraint firstItem="7Tv-fz-2zZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="NnM-gV-SsE"/>
+                            <constraint firstItem="kBu-fB-Azz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="WUT-9B-fbW"/>
+                            <constraint firstItem="8tk-Vd-Pd0" firstAttribute="centerX" secondItem="7Tv-fz-2zZ" secondAttribute="centerX" id="bJL-Lb-0an"/>
+                            <constraint firstItem="kBu-fB-Azz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="71" id="ec0-I4-UMb"/>
+                            <constraint firstItem="dmU-dW-MuX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eoT-cG-Elz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Tv-fz-2zZ" secondAttribute="bottom" constant="61" id="jWq-LC-0r0"/>
+                            <constraint firstItem="kBu-fB-Azz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-61" id="mjI-Ox-eNJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashlogo" width="261" height="472"/>
+    </resources>
+</document>

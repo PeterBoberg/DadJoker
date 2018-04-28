@@ -1,0 +1,2 @@
+A fun an amusing app that let the user spin the wheel of fortune and win "really bad dad jokes".
+The punchline is presented with humorous animations and sounds.

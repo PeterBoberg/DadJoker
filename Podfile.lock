@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.5.0)
+  - SCLAlertView (0.7.0)
+  - SwiftHEXColors (1.1.0)
+  - Unbox (2.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - SCLAlertView
+  - SwiftHEXColors
+  - Unbox
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SCLAlertView
+    - SwiftHEXColors
+    - Unbox
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SwiftHEXColors: 8f7e364df7929e32cff9f9eeb044bb215167d6be
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+
+PODFILE CHECKSUM: 9ab9517601ef62cf22ec8e2f288f94e719c0dab6
+
+COCOAPODS: 1.5.0
